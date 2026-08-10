@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Neptune City DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Neptune City Borough boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 2359,
+  "height": 1630,
+  "nodata": -999999,
+  "minMeters": -0.369,
+  "maxMeters": 23.022,
+  "meanMeters": 6.996,
+  "stdDevMeters": 3.929,
+  "minFeet": -1.210629921255,
+  "maxFeet": 75.53149606269,
+  "webMercatorBounds": [
+    -8243427.859806,
+    4893629.322463,
+    -8239832.743806,
+    4896113.442463
+  ],
+  "leafletBounds": [
+    [
+      40.1902703,
+      -74.0519724
+    ],
+    [
+      40.2073069,
+      -74.0196779
+    ]
+  ],
+  "files": {
+    "demCog": "neptune_city_dem_5ft_cog.tif",
+    "hillshadeCog": "neptune_city_hillshade_cog.tif",
+    "hillshadePng": "neptune_city_hillshade.png",
+    "boundaryGeojson": "neptune_city_boundary.geojson"
+  }
+}
